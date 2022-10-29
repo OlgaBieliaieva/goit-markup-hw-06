@@ -476,7 +476,7 @@
                   placeholder="E-mail"
                 />
               </label>
-              <button class="subscribe-button">
+              <button class="subscribe-button" type="submit">
                 Підписатися
                 <svg class="subscribe-button-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
@@ -527,14 +527,18 @@
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </div>
-          <label class="form-label">Коментар</label>
+          <label class="form-label" for="comment">Коментар</label>
           <textarea
             class="comment-field"
             name="comment"
             placeholder="Введіть текст"
           ></textarea>
           <label class="agreement">
-            <input type="checkbox" class="checkbox visually-hidden" />
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              name="agreement"
+            />
             Погоджуюся з розсилкою та приймаю
             <a class="conditions-link" href=""> Умови договору</a>
             <svg class="checkbox-icon" width="16" height="15">
