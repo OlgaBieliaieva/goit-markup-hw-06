@@ -430,6 +430,7 @@ img {
   line-height: 1.87;
   text-align: left;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .subscribe-button:hover,
 .subscribe-button:focus,
